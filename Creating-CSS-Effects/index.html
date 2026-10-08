@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to The Pet Shop - your one-stop shop for pets, food, and supplies.">
+    <title>The Pet Shop - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Poppins:wght@600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="animate-text">Welcome to The Pet Shop!</h1>
+
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="drop">
+                    <a href="#images">Images</a>
+                    <div class="rollover-menu">
+                        <a href="#cat">Image 1</a>
+                        <a href="#lion">Image 2</a>
+                        <a href="#red-panda">Image 3</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="cats.html">Cats &amp; Kittens</a>
+                </li>
+                <li>
+                    <a href="dogs.html">Dogs &amp; Puppies</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <blockquote cite="https://www.brainyquote.com">
+            "Until one has loved an animal, a part of one's soul remains unawakened."
+            - Anatole France
+        </blockquote>
+
+        <section id="images">
+            <h2>Our Featured Pets</h2>
+            <p>Welcome to our site! We love helping <em>happy pets</em> find great homes.</p>
+
+            <div class="container">
+                <div id="cat" class="column">
+                    <div class="image-container">
+                        <h3>Cute Cat</h3>
+                        <img src="images/cat.jpg" alt="A cute orange cat sleeping on a cushion">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div id="lion" class="column">
+                    <div class="image-container">
+                        <h3>Lion Cat</h3>
+                        <img class="zoom" src="images/lion.jpg" alt="A golden cat sitting in the jungle">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div id="red-panda" class="column">
+                    <div class="image-container">
+                        <h3>Red Panda</h3>
+                        <div class="circle">
+                            <img src="images/red panda.jpg" alt="A cute red panda walking">
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div id="dog" class="column">
+                    <div class="image-container">
+                        <h3>Happy Dog</h3>
+                        <img src="images/dog.jpg" alt="A friendly golden retriever puppy in the grass">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Pet Care Video</h2>
+            <div id="video" class="container">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/lqFeCWyAzHU"
+                    title="Pet Shop Video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <table>
+                <tr>
+                    <td>
+                        <p>The Pet Shop</p>
+                    </td>
+                    <td>
+                        <p>&copy; 2026 All Rights Reserved.</p>
+                    </td>
+                    <td>
+                        <p>Contact Us for More Information</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
